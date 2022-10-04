@@ -32,8 +32,9 @@ h2{
 
 }
 
-p{
+p, li{
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 nav{
@@ -61,10 +62,9 @@ nav a:hover{
     color: #FDC500;
 }
 
-#domain,#site-purpose,#target-audience{
+#domain,#site-purpose,#target-audience,.personas{
     margin-bottom: 4rem;
 }
-
 
 #logo-space{
     background-color: rgba(0,0,0,0.5);
@@ -147,6 +147,17 @@ th{
     background-color: #DCDCDC;
     padding: 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#scenarios, #target-audience, #site-purpose{
+    text-align: justify;
+}
+
+#scenarios h3{
+    background-color: #DCDCDC;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
 }
 
 @media only screen and (max-width : 768px){
